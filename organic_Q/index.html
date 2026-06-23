@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>有機反応機構クイズ</title>
+</head>
+
+<body>
+
+  <h1>有機反応機構 一問一答</h1>
+
+  <p id="score">正答率: 0% (0/0)</p>
+
+  <div class="card">
+    <p id="question">問題がここに出ます</p>
+
+    <input id="userAnswer" type="text" placeholder="答えを入力">
+
+    <br><br>
+
+    <button onclick="checkAnswer()">判定する</button>
+    <button onclick="showAnswer()">答えを見る</button>
+    <button onclick="nextQuestion()">次の問題</button>
+
+    <p id="result"></p>
+    <p id="answer"></p>
+    <p id="explanation"></p>
+    <img id="explanationImage" style="max-width: 100%; display: none;">
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
